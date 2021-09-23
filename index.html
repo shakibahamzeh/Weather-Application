@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Weather Application</title>
+  </head>
+  <body>
+    <section id="weather">
+      <div class="weather-wrapper">
+        <h1>Weather Application</h1>
+        <form class="form">
+          <input type="text" placeholder="Enter City Name" />
+          <button>Search</button>
+        </form>
+        <div class="error">No matching location found.</div>
+        <div class="loader"></div>
+        <div class="weather-show">
+          <div class="location">
+            <div>Country: <span class="country"></span></div>
+            <!--<div>City: <span class="city"></span></div>-->
+          </div>
+          <div>Temperature: <span class="temperature"></span></div>
+          <div><span class="icon-weather"></span></div>
+          <div>Condition: <span class="condition"></span></div>
+          <div>Date: <span class="date"></span></div>
+
+          <div>Wind Speed: <span class="wind"></span></div>
+          <div>Humidity: <span class="humidity"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/js.js"></script>
+  </body>
+</html>
